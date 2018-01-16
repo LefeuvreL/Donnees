@@ -1,0 +1,56 @@
+BALISES XML
+
+***————————————————————***
+
+Relation d’Hyperonymie : 
+Dans les balises, RG signifie Relation Générique
+
+id_RelationGenerique : id du contexte dans la base de données
+RG_Categorie : Catégorie à laquelle le marqueur testé appartient
+RG_Marqueur : marqueur lexico-syntaxique testé (hors contexte)
+RG_Contexte : contexte extrait avec le marqueur lexico-syntaxique (donc ce marqueur y apparait en théorie)
+RG_Validation : Evaluation du candidat-marqueur : le candidat-marqueur, seul, permet-il d’indiquer la relation ? Oui/Non/Plutôt Oui/Plutôt Non
+RG_Notes : quelques notes que j’avais prises concernant le contexte
+RG_ReferenceSource : source du contexte, cad texte duquel il est issu
+RG_Patron : le marqueur dans le contexte
+RG_hypo : hyponyme
+RG_hyperonyme : hyperonyme
+
+***————————————————————***
+
+Relation de méronymie : 
+Dans les balises, RM signifie Relation Méronymie
+
+id_Relation.Meronymie: id du contexte dans la base de données
+RM_IndicateurLexical : marqueur testé
+RM_Type : Catégorie à laquelle le candidat-marqueur appartient
+RM_Famille : Sous-catégorie à laquelle le candidat-marqueur appartient
+RM_Contexte : contexte extrait avec le marqueur lexico-syntaxique 
+RM_Validation : Evaluation du candidat-marqueur : le candidat-marqueur, seul, permet-il d’indiquer la relation ? Oui/Non/Plutôt Oui/Plutôt Non
+RM_Notes : quelques notes que j’avais prises concernant le contexte
+RM_ReferenceSource : source du contexte, cad texte duquel il est issu
+RM_Mot : je crois que c’est le pivot que j’avais projeté…et tel qu’il apparait dans le contexte
+RM_Parties : élément lexical qui désigne la ou les parties
+RM_Tout : élément lexical qui désigne le tout
+
+***————————————————————***
+
+Relation de cause :
+Dans les balises, RC signifie Relation Cause
+
+id_RelationCauses id du contexte dans la base de données
+RC_IndicateurLexical : marqueur testé
+RC_Type : Catégorie à laquelle le candidat-marqueur appartient
+RC_Famille : Sous-catégorie à laquelle le candidat-marqueur appartient
+RC_Contexte : contexte extrait avec le marqueur lexico-syntaxique 
+RC_Validation : Evaluation du candidat-marqueur : le candidat-marqueur, seul, permet-il d’indiquer la relation ? Oui/Non/Plutôt Oui/Plutôt Non
+RC_Notes : quelques notes que j’avais prises concernant le contexte
+RC_CodeLIenSource : source du contexte, cad texte duquel il est issu
+S_Domaine : domaine du texte
+S_Niveau : genre du texte
+RC_Mot : je crois que c’est le pivot que j’avais projeté…et tel qu’il apparait dans le contexte
+RC_Patron_Terme_A : élément lexical qui désigne la cause
+RC_Patron_Terme_B : élément lexical qui désigne l’effet
+
+
+
